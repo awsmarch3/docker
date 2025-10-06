@@ -1,4 +1,4 @@
-# Docker Storage Lab – Volumes, Bind Mounts, tmpfs, and NFS
+# Docker Storage Lab – Volumes, Bind Mounts, tmpfs
 
 This document summarizes all the Docker storage types we explored, with **hands-on tasks, commands, and observations**. It is structured for lab exercises and reference.
 
