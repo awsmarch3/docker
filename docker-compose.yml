@@ -1,0 +1,21 @@
+services:
+  node-app:
+    image: node-app
+    build: /root/docker/node-app
+    ports:
+      - "3000:3000"
+    networks:
+      - backend
+    restart: always   
+  python-app:
+    image: python-app
+    build: /root/docker/flask-app
+    ports:
+      - "5000:5000"
+    networks:
+      - backend
+      - frontend
+
+networks:
+  frontend:
+  backend:
